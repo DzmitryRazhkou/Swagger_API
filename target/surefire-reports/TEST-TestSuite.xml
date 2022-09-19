@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.61" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/target/test-classes:/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/target/classes:/Users/dzmitryrazhkou/.m2/repository/org/aspectj/aspectjweaver/1.9.9.1/aspectjweaver-1.9.9.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/dzmitryrazhkou/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/dzmitryrazhkou/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/dzmitryrazhkou/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dzmitryrazhkou/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dzmitryrazhkou/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dzmitryrazhkou/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/json-schema-validator/5.2.0/json-schema-validator-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dzmitryrazhkou/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/dzmitryrazhkou/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/dzmitryrazhkou/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/dzmitryrazhkou/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/dzmitryrazhkou/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4/jackson-databind-2.13.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/tesults/tesults/1.0.2/tesults-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar:/Users/dzmitryrazhkou/.m2/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar:/Users/dzmitryrazhkou/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar:/Users/dzmitryrazhkou/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.228/aws-java-sdk-s3-1.11.228.jar:/Users/dzmitryrazhkou/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.228/aws-java-sdk-kms-1.11.228.jar:/Users/dzmitryrazhkou/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.228/aws-java-sdk-core-1.11.228.jar:/Users/dzmitryrazhkou/.m2/repository/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.jar:/Users/dzmitryrazhkou/.m2/repository/com/amazonaws/jmespath-java/1.11.228/jmespath-java-1.11.228.jar:/Users/dzmitryrazhkou/.m2/repository/org/json/json/20171018/json-20171018.jar:/Users/dzmitryrazhkou/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dzmitryrazhkou/.m2/repository/com/tesults/testng/tesults-testng/1.0.2/tesults-testng-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-testng/2.19.0/allure-testng-2.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-java-commons/2.19.0/allure-java-commons-2.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-model/2.19.0/allure-model-2.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-test-filter/2.19.0/allure-test-filter-2.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/dzmitryrazhkou/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/target/surefire/surefirebooter2472437020729638143.jar /Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/target/surefire 2022-09-18T22-08-04_548-jvmRun1 surefire16649943472143287209tmp surefire_04623942835423022256tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/target/test-classes:/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/target/classes:/Users/dzmitryrazhkou/.m2/repository/org/aspectj/aspectjweaver/1.9.9.1/aspectjweaver-1.9.9.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/dzmitryrazhkou/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/dzmitryrazhkou/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/dzmitryrazhkou/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/rest-assured/5.2.0/rest-assured-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/dzmitryrazhkou/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/dzmitryrazhkou/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/dzmitryrazhkou/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/json-path/5.2.0/json-path-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/rest-assured-common/5.2.0/rest-assured-common-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/xml-path/5.2.0/xml-path-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/rest-assured/json-schema-validator/5.2.0/json-schema-validator-5.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/guava/28.2-android/guava-28.2-android.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/dzmitryrazhkou/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/dzmitryrazhkou/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/dzmitryrazhkou/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/dzmitryrazhkou/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/dzmitryrazhkou/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/dzmitryrazhkou/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.4/jackson-databind-2.13.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/Users/dzmitryrazhkou/.m2/repository/com/tesults/tesults/1.0.2/tesults-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/javax/xml/bind/jaxb-api/2.3.0/jaxb-api-2.3.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar:/Users/dzmitryrazhkou/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar:/Users/dzmitryrazhkou/.m2/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar:/Users/dzmitryrazhkou/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar:/Users/dzmitryrazhkou/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/amazonaws/aws-java-sdk-s3/1.11.228/aws-java-sdk-s3-1.11.228.jar:/Users/dzmitryrazhkou/.m2/repository/com/amazonaws/aws-java-sdk-kms/1.11.228/aws-java-sdk-kms-1.11.228.jar:/Users/dzmitryrazhkou/.m2/repository/com/amazonaws/aws-java-sdk-core/1.11.228/aws-java-sdk-core-1.11.228.jar:/Users/dzmitryrazhkou/.m2/repository/software/amazon/ion/ion-java/1.0.2/ion-java-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.6.7/jackson-dataformat-cbor-2.6.7.jar:/Users/dzmitryrazhkou/.m2/repository/com/amazonaws/jmespath-java/1.11.228/jmespath-java-1.11.228.jar:/Users/dzmitryrazhkou/.m2/repository/org/json/json/20171018/json-20171018.jar:/Users/dzmitryrazhkou/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/dzmitryrazhkou/.m2/repository/com/tesults/testng/tesults-testng/1.0.2/tesults-testng-1.0.2.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-testng/2.19.0/allure-testng-2.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-java-commons/2.19.0/allure-java-commons-2.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-model/2.19.0/allure-model-2.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/io/qameta/allure/allure-test-filter/2.19.0/allure-test-filter-2.19.0.jar:/Users/dzmitryrazhkou/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar:/Users/dzmitryrazhkou/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/dzmitryrazhkou/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/dzmitryrazhkou/.m2/repository/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/dzmitryrazhkou"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/target/surefire/surefirebooter2472437020729638143.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="dzmitryrazhkou"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/dzmitryrazhkou/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/4y/z4q6qpkd1p1fj9znbkpvjzl40000gn/T/"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/dzmitryrazhkou/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="createNewPetAPI_Test" classname="com.qa.api.swagger.tests.SwaggerPet_API" time="5.213">
+    <system-out><![CDATA[Tesults disabled - target not provided.
+Test Suite started!
+I am in onStart method Rest API regression Test
+createNewPetAPI_Test started!
+I am in onTestStart method createNewPetAPI_Test start
+JSON BODY PAYLOAD ---> {
+  "id" : 12,
+  "category" : {
+    "id" : 1,
+    "name" : "dogs"
+  },
+  "name" : "Olly",
+  "photoUrls" : [ "http://lorempixel.com/1680/1050/nightlife/" ],
+  "tags" : [ {
+    "id" : 1,
+    "name" : "Mix Breed"
+  } ],
+  "status" : "ADOPTED"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 12,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "Olly",
+    "photoUrls": [
+        "http://lorempixel.com/1680/1050/nightlife/"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Mix Breed"
+        }
+    ],
+    "status": "ADOPTED"
+}
+200
+{
+    "id": 12,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "Olly",
+    "photoUrls": [
+        "http://lorempixel.com/1680/1050/nightlife/"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Mix Breed"
+        }
+    ],
+    "status": "ADOPTED"
+}
+{
+    "id": 12,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "Olly",
+    "photoUrls": [
+        "http://lorempixel.com/1680/1050/nightlife/"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Mix Breed"
+        }
+    ],
+    "status": "ADOPTED"
+}
+====================
+I am in onTestSuccess method createNewPetAPI_Test succeed
+createNewPetAPI_Test passed!
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getPetAPI_Test" classname="com.qa.api.swagger.tests.SwaggerPet_API" time="0.633">
+    <system-out><![CDATA[getPetAPI_Test started!
+I am in onTestStart method getPetAPI_Test start
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/12
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+200
+{
+    "id": 12,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "Olly",
+    "photoUrls": [
+        "http://lorempixel.com/1680/1050/nightlife/"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Mix Breed"
+        }
+    ],
+    "status": "ADOPTED"
+}
+{
+    "id": 12,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "Olly",
+    "photoUrls": [
+        "http://lorempixel.com/1680/1050/nightlife/"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Mix Breed"
+        }
+    ],
+    "status": "ADOPTED"
+}
+I am in onTestSuccess method getPetAPI_Test succeed
+getPetAPI_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="updatePetAPI_Test" classname="com.qa.api.swagger.tests.SwaggerPet_API" time="0.599">
+    <system-out><![CDATA[updatePetAPI_Test started!
+I am in onTestStart method updatePetAPI_Test start
+JSON BODY PAYLOAD ---> {
+  "id" : 12,
+  "category" : {
+    "id" : 1,
+    "name" : "dogs"
+  },
+  "name" : "OLLY",
+  "photoUrls" : [ "http://lorempixel.com/g/640/480/nature/" ],
+  "tags" : [ {
+    "id" : 1,
+    "name" : "Mix German Shepard and American Pit-bull"
+  } ],
+  "status" : "SOLD"
+}
+Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 12,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "OLLY",
+    "photoUrls": [
+        "http://lorempixel.com/g/640/480/nature/"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Mix German Shepard and American Pit-bull"
+        }
+    ],
+    "status": "SOLD"
+}
+200
+{
+    "id": 12,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "OLLY",
+    "photoUrls": [
+        "http://lorempixel.com/g/640/480/nature/"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Mix German Shepard and American Pit-bull"
+        }
+    ],
+    "status": "SOLD"
+}
+{
+    "id": 12,
+    "category": {
+        "id": 1,
+        "name": "dogs"
+    },
+    "name": "OLLY",
+    "photoUrls": [
+        "http://lorempixel.com/g/640/480/nature/"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "Mix German Shepard and American Pit-bull"
+        }
+    ],
+    "status": "SOLD"
+}
+====================
+I am in onTestSuccess method updatePetAPI_Test succeed
+updatePetAPI_Test passed!
+]]></system-out>
+  </testcase>
+  <testcase name="deletePetAPI_Test" classname="com.qa.api.swagger.tests.SwaggerPet_API" time="0.556">
+    <system-out><![CDATA[deletePetAPI_Test started!
+I am in onTestStart method deletePetAPI_Test start
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/pet/12
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer 
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+200
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "12"
+}
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "12"
+}
+I am in onTestSuccess method deletePetAPI_Test succeed
+deletePetAPI_Test passed!
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,9 @@
+/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/src/test/java/com/qa/api/swagger/listeners/AllureReportListener.java
+/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/src/test/java/com/qa/api/swagger/tests/UpdateUser.java
+/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/src/test/java/com/qa/api/swagger/tests/DeleteUser.java
+/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/src/test/java/com/qa/api/swagger/tests/CreateNewPet.java
+/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/src/test/java/com/qa/api/swagger/token/Token.java
+/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/src/test/java/com/qa/api/swagger/tests/GetPet.java
+/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/src/test/java/com/qa/api/swagger/tests/SwaggerPet_API.java
+/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/src/test/java/com/qa/api/swagger/listeners/ExtentReportListener.java
+/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/src/test/java/com/qa/api/swagger/tests/GetImgurAPITest.java

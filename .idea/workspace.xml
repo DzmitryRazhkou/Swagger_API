@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59bd453d-ead3-417f-b5e3-be38464f5ff8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ExmY5ggNLPjluSHfi8xsLOecCt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.qa.api.gorest.pojo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SwaggerPet_API">
+    <configuration name="SwaggerPet_API" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.api.swagger.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.api.gorest.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.api.swagger.tests.SwaggerPet_API" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwaggerPet_API.deletePetAPI_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.api.swagger.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.api.gorest.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.api.swagger.tests.SwaggerPet_API" />
+      <option name="METHOD_NAME" value="deletePetAPI_Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwaggerPet_API.getAllUserListAPI_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.api.swagger.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.api.gorest.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.api.swagger.tests.SwaggerPet_API" />
+      <option name="METHOD_NAME" value="getAllUserListAPI_Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwaggerPet_API.updatePetAPI_Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.api.swagger.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.api.gorest.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.api.swagger.tests.SwaggerPet_API" />
+      <option name="METHOD_NAME" value="updatePetAPI_Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/src/test/resources/testrunners/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testrunners/testing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SwaggerPet_API" />
+        <item itemvalue="TestNG./Users/dzmitryrazhkou/Documents/Automation/SwaggerPet_RestAssured/src/test/resources/testrunners/testing.xml" />
+        <item itemvalue="TestNG.SwaggerPet_API.deletePetAPI_Test" />
+        <item itemvalue="TestNG.SwaggerPet_API.updatePetAPI_Test" />
+        <item itemvalue="TestNG.SwaggerPet_API.getAllUserListAPI_Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59bd453d-ead3-417f-b5e3-be38464f5ff8" name="Changes" comment="" />
+      <created>1663545654350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663545654350</updated>
+    </task>
+    <servers />
+  </component>
+</project>

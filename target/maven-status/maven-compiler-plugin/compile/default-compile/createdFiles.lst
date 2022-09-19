@@ -1,0 +1,8 @@
+com/qa/api/swagger/pojo/Pet.class
+com/qa/api/swagger/pojo/Tag.class
+com/qa/api/swagger/restclient/RestClient.class
+com/qa/api/swagger/util/TestDataGenerator.class
+com/qa/api/swagger/util/Status.class
+com/qa/api/swagger/pojo/Category.class
+com/qa/api/swagger/util/Constants.class
+com/qa/api/swagger/util/TestUtil.class

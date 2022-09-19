@@ -1,0 +1,9 @@
+com/qa/api/swagger/tests/GetImgurAPITest.class
+com/qa/api/swagger/tests/CreateNewPet.class
+com/qa/api/swagger/token/Token.class
+com/qa/api/swagger/tests/GetPet.class
+com/qa/api/swagger/listeners/AllureReportListener.class
+com/qa/api/swagger/tests/UpdateUser.class
+com/qa/api/swagger/listeners/ExtentReportListener.class
+com/qa/api/swagger/tests/DeleteUser.class
+com/qa/api/swagger/tests/SwaggerPet_API.class

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Swagger Pet Rest API Test Suite" verbose="1" parallel="tests"
+       thread-count="3">
+
+    <listeners>
+        <listener class-name="com.qa.api.swagger.listeners.ExtentReportListener" />
+        <listener class-name="com.qa.api.swagger.listeners.AllureReportListener" />
+    </listeners>
+
+    <test name="Rest API regression Test" parallel="classes"
+          thread-count="3">
+        <classes>
+            <class name="com.qa.api.swagger.tests.SwaggerPet_API" />
+        </classes>
+    </test>
+</suite>
